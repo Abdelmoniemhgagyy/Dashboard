@@ -13,7 +13,7 @@ function Row3() {
          <Typography sx={{color:theme.palette.secondary.main , fontSize:"24px",margin:"10px 15px"}}>
            Compaign
          </Typography>
-        <Box  width={"430px"} maxHeight={"300px"} sx={{margin:"0 auto"}} >
+        <Box  width={"420px"} maxHeight={"300px"} sx={{margin:"0 auto"}} >
                <Poe isDashboard={true} />   
         </Box>
 
@@ -22,7 +22,7 @@ function Row3() {
          <Typography sx={{color:theme.palette.secondary.main, fontSize:"24px",margin:"10px 15px"}}>
            Sales Quantity 
          </Typography>
-         <Box  width={"430px"} maxHeight={"300px"} sx={{margin:"0 auto"}}>
+         <Box  width={"420px"} maxHeight={"300px"} sx={{margin:"0 auto"}}>
              <Bar isDashboard={true}/>
         </Box>
 
@@ -31,7 +31,7 @@ function Row3() {
          <Typography sx={{color:theme.palette.secondary.main,fontSize:"24px",margin:"10px 15px"}}>
            Geography
          </Typography>
-         <Box  width={"430px"} maxHeight={"300px"} sx={{margin:"0 auto"}}>
+         <Box  width={"420px"} maxHeight={"300px"} sx={{margin:"0 auto"}}>
                  <Geo isDashboard={true}/>       
         </Box>
        
