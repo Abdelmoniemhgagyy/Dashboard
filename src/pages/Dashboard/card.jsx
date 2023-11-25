@@ -5,7 +5,7 @@ import { useTheme } from '@mui/material/styles';
 function Card({icon,count,title,increase,data,scheme}) {
   const theme = useTheme();
   return (
-    <Paper sx={{minWidth:"340px",display:"flex",justifyContent:"space-between",padding:"4px 5px",flexGrow: 1}} >
+    <Paper sx={{minWidth:"300px",display:"flex",justifyContent:"space-between",padding:"4px 5px",flexGrow: 1}} >
           <Stack direction={"column"} sx={{lineHeight:"1.8", textAlign:"center",padding:"5px"}}>
           <Box>{icon} </Box>  
             <Typography  variant="p" >
