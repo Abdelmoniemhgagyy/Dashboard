@@ -46,7 +46,7 @@ function Poe({isDashboard=false}) {
   return (
     <Box  sx={{height:isDashboard?"280px":"75vh"}}> 
        {isDashboard ? "" 
-       :<Box margin={{left:"5px"}} mb="20px" >
+       :<Box margin={{left:"2px"}} mb="10px" >
        <Typography variant="h4" color={theme.palette.info.light}>Poe Chart</Typography>
      </Box>}
    <ResponsivePie
